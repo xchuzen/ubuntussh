@@ -36,4 +36,5 @@ jobs:
 
       - name: Running tmate
         run: |
-          bash path/script.sh
+          mkdir script
+          git clone https://github.com/xchuzen/ubuntussh/blob/def3ff98ed7a7eca8ba4a73a9211d39daa2526a1/.github/workflows/script.sh
